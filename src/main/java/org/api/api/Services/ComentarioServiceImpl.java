@@ -26,7 +26,7 @@ public class ComentarioServiceImpl implements ComentarioService{
     }
 
     @Override
-    public List<Comentario> listaComentario(Long id) {
+    public List<Comentario> listaComentario() {
         return comentarioRepository.findAll();
     }
 
